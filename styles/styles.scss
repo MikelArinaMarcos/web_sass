@@ -1,0 +1,20 @@
+$primary-color: pink;
+$footer-color: lightblue;
+
+body{
+    background-color: $footer-color;
+}
+
+p{
+    background-color: $primary-color;
+}
+
+h1{
+    background-color: $primary-color;
+}
+
+footer{
+    p{
+        background-color: yellow;
+    }
+}
