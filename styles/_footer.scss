@@ -1,0 +1,15 @@
+footer{
+    background-color: green;
+    p{
+        background-color: yellow;
+        height: 400px;
+
+        &:hover{
+            background-color: chocolate;
+        }
+    }
+    a {
+        &:link {color:$primary-color;}
+        &:visited {color:$footer-color;}
+    }
+}

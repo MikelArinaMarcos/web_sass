@@ -1,5 +1,5 @@
-$primary-color: pink;
-$footer-color: lightblue;
+@import "./variables";
+@import "./footer";
 
 body{
     background-color: $footer-color;
@@ -13,14 +13,3 @@ h1{
     background-color: $primary-color;
 }
 
-footer{
-    background-color: green;
-    p{
-        background-color: yellow;
-        height: 400px;
-
-        &:hover{
-            background-color: chocolate;
-        }
-    }
-}
