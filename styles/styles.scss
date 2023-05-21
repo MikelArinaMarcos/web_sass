@@ -14,7 +14,13 @@ h1{
 }
 
 footer{
+    background-color: green;
     p{
         background-color: yellow;
+        height: 400px;
+
+        &:hover{
+            background-color: chocolate;
+        }
     }
 }

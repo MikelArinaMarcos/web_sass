@@ -10,6 +10,13 @@ h1 {
   background-color: pink;
 }
 
+footer {
+  background-color: green;
+}
 footer p {
   background-color: yellow;
+  height: 400px;
+}
+footer p:hover {
+  background-color: chocolate;
 }/*# sourceMappingURL=styles.css.map */
