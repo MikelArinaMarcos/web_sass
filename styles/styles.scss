@@ -1,15 +1,19 @@
 @import "./variables";
 @import "./footer";
 
+@mixin bg-color($color: chocolate){
+    background-color: $color;
+}
+
 body{
-    background-color: $footer-color;
+    @include bg-color($footer-color)
 }
 
 p{
-    background-color: $primary-color;
+    @include bg-color(blue)
 }
 
 h1{
-    background-color: $primary-color;
+    @include bg-color(white)
 }
 
